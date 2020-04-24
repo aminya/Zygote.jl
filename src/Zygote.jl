@@ -56,5 +56,6 @@ macro profile(ex)
     Profile.juno(Profile.profile(back))
   end
 end
+include("precompile_includer.jl")
 
 end # module
